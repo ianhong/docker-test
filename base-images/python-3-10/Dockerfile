@@ -1,1 +1,1 @@
-FROM python:3.14.0rc3-slim-trixie
+FROM python:3.15.0a1-slim-trixie
