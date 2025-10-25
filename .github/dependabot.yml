@@ -6,7 +6,7 @@
 version: 2
 updates:
   - package-ecosystem: "docker"
-    directory: "/" # scans Dockerfiles in the repository root
+    directory: "/base-images" # scan Dockerfiles under base-images/
     schedule:
       interval: "weekly"
     open-pull-requests-limit: 5
